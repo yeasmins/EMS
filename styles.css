@@ -1,0 +1,83 @@
+﻿* {
+  font-family:verdana,sans-serif;
+  font-size  :14pt;
+}
+.btn4 {
+  color: blue;
+}
+.btn4:hover{
+    color: purple ;
+}
+.topHead {
+	text-align: center;
+	color: red;
+}
+body {
+  width     :700px;
+  margin    :20px auto;
+  background: #f8f8f8;
+  border    :1px solid #888;
+
+}
+
+html {
+  background-image: url(EE1.jpg);
+  background-repeat:repeat;
+  background-size:cover
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+li a:hover, .button:hover {
+  color:red;
+}
+ 
+.appname {
+  text-align :center;
+  background :purple;
+  color      :white;
+  font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.main {
+  margin-left:40px;
+  font-weight: bold;
+}
+
+.info {
+  background :#FF1493;
+  color      :white;
+	border     :1px solid green;
+	padding    :5px 10px;
+  margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  padding           :4px 6px;
+  border            :1px solid #777;
+  background        :yellow;
+  color             :#d04;
+  margin-right      :8px;
+	border-radius     :5px;
+	-moz-box-shadow   :2px 2px 2px #888;
+	-webkit-box-shadow:2px 2px 2px #888;
+	box-shadow        :2px 2px 2px #888;
+}
+
+.subhead {
+  font-weight:bold;
+}
+footer{
+  text-align: center;
+}
